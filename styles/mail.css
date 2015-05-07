@@ -1,0 +1,30 @@
+h1 {
+	font-size: 12pt;
+}
+
+p {
+	font-size: 11pt;
+}
+
+.content_column_title {
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+
+.content_column_image {
+	width: 350px;
+}
+
+.content_column {
+	width: 430px;
+}
+
+.unsubscribe_link {
+	color: black;
+}
+
+.social_link {
+	width: 25px;
+	height: 25px;
+}

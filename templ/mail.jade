@@ -1,0 +1,31 @@
+include ./styles.jade
+
+.title_block
+	h1 Я заголовок рассылки
+	p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo esse officiis iusto porro ratione, quam sit a recusandae libero? Pariatur mollitia, facere libero eum laboriosam unde voluptates culpa repudiandae itaque.
+table.content_block
+	tr
+		td.content_column
+			a(href='#')
+				img.content_column_image(src='cid:body_image')
+			.content_column_title раз
+			.content_column_body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eaque, harum dolorem sint fugiat et blanditiis quo reprehenderit maiores expedita iste, perferendis tempora nostrum odio! Cupiditate laboriosam rem similique ullam?
+		td.content_column
+			a(href='#')
+				img.content_column_image(src='cid:body_image')
+			.content_column_title два
+			.content_column_body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eaque, harum dolorem sint fugiat et blanditiis quo reprehenderit maiores expedita iste, perferendis tempora nostrum odio! Cupiditate laboriosam rem similique ullam?
+.footer_block
+	p я хороший футер
+	span.social_bloock
+		a(href='#')
+			img.social_link(src='cid:social_twitter')
+		a(href='#')
+			img.social_link(src='cid:social_facebook')
+		//- a(href='#')
+		//- 	img(src='cid:social_instagram')
+		//- a(href='#')
+		//- 	img(src='cid:social_vk')
+.controls_block
+	hr
+	a.unsubscribe_link(href='/unsubscribe') отписаться от рассылки
